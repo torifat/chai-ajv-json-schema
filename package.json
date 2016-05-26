@@ -1,0 +1,31 @@
+{
+  "name": "chai-ajv-json-schema",
+  "version": "1.0.0",
+  "description": "Chai plugin for using AJV validation in mocha tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peon374/chai-ajv-json-schema.git"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "ajv"
+  ],
+  "author": "David Middleton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peon374/chai-ajv-json-schema/issues"
+  },
+  "homepage": "https://github.com/peon374/chai-ajv-json-schema#readme",
+  "dependencies": {
+    "ajv": "^4.0.6"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
