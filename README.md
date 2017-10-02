@@ -3,15 +3,15 @@ Chai plugin to allow JSON schema to be used with expect.
 This is currently a stub and is under heavy development.
 All contributions are welcome.
 
-##Usage
+## Usage
 This plugin adds validWithSchema to the expect validation methods.
-```
-expect({}).to.be.validWithSchema(['schema1','schema2])
+```js
+expect({}).to.be.validWithSchema(['schema1','schema2'])
 expect({}).to.be.validWithSchema('schema1')
 ```
 
-##Simple Example
-```
+## Simple Example
+```js
 var chai = require('chai');
 var expect = chai.expect;
 
@@ -24,11 +24,10 @@ describe("Look we can test against a schema", function(){
     expect(results).to.validWithSchema("test_schema");
   })
 })
-
 ```
 
-##Complicated Example
-```
+## Complicated Example
+```js
 var meta = require('../meta.json');
 var chai = require('chai');
 var expect = chai.expect;
